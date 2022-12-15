@@ -1,8 +1,8 @@
 clc; clear; rng(1);
 %% PARAMETER (change accordingly)
 DRAW = 1; % (Re-)draw image? 1=YES. 0=NO.
-FILENAMEnematics = '2-ptc-pp1 with nematics.tif';
-FILENAMEcontainingResolutionInfo = '1-ptc-pp1 original image.tif';
+FILENAMEnematics = 'nematic lines.tif';
+FILENAMEcontainingResolutionInfo = 'original image.tif';
 
 %% SCRIPT (no changes needed below this line, hopefully)
 if DRAW == 1
@@ -46,7 +46,7 @@ if DRAW == 1
         end
     end
     % Saves XLS file of result dataset
-    writetable(array2table(RES, 'VariableNames', {'ROI', 'x1', 'y1', 'x2', 'y2', 'Length', 'Angle'}), [FILENAMEnematics '-result.xls']);
+    writetable(array2table(RES, 'VariableNames', {'ROI', 'x1', 'y1', 'x2', 'y2', 'Length', 'Angle'}), 'result.xls');
 end
 
 % Creates histogram of calculated lengths
