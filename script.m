@@ -1,8 +1,8 @@
 clc; clear; rng(1);
 %% PARAMETER (change accordingly)
 DRAW = 1; % (Re-)draw image? 1=YES. 0=NO.
-FILENAMEnematics = 'nematic lines.tif';
-FILENAMEcontainingResolutionInfo = 'original image.tif';
+FILENAMEnematics = 'example image containing nematic lines.tif';
+FILENAMEcontainingResolutionInfo = 'example image containing resolution info.tif';
 
 %% SCRIPT (no changes needed below this line, hopefully)
 if DRAW == 1
