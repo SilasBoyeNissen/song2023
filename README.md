@@ -21,4 +21,4 @@ The script outputs:
 
 A screenshot has been uploaded to the output folder to illustrate one example of how the script works.
 
-For questions, please get in touch with silas@nbi.ku.dk.
+For questions, please get in touch with boye@stanford.edu.
